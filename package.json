@@ -30,11 +30,13 @@
   "homepage": "https://github.com/cssstats/postcss-cssstats",
   "dependencies": {
     "cssstats": "4.0.5",
-    "lodash": "^4.17.21",
-    "postcss": "^8.4.19"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "is-present": "1.0.0",
     "mocha": "*"
+  },
+  "peerDependencies": {
+    "postcss": "^8.4.19"
   }
 }
