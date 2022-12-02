@@ -4,7 +4,7 @@ var _ = require('lodash');
 var postcss = require('postcss');
 var cssstats = require('cssstats');
 
-module.exports = postcss.plugin('cssstats', function(options, callback) {
+const plugin = postcss.plugin('cssstats', function(options, callback) {
   if (_.isFunction(options)) {
     callback = options;
     options = {};
@@ -17,3 +17,6 @@ module.exports = postcss.plugin('cssstats', function(options, callback) {
     callback(cssstats(css));
   };
 });
+
+plugin.postcss = true;
+module.exports = plugin;
