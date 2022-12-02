@@ -29,12 +29,12 @@
   },
   "homepage": "https://github.com/cssstats/postcss-cssstats",
   "dependencies": {
-    "cssstats": "1.6.0",
-    "lodash": "^3.8.0",
-    "postcss": "^4.1.9"
+    "cssstats": "4.0.5",
+    "lodash": "^4.17.21",
+    "postcss": "^8.4.19"
   },
   "devDependencies": {
-    "is-present": "0.0.1",
+    "is-present": "1.0.0",
     "mocha": "*"
   }
 }
